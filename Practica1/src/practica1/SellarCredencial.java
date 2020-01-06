@@ -54,7 +54,7 @@ public class SellarCredencial {
      */
     public static void main(String[] args) {                
         if (args.length != 4) {
-            System.out.println("Error el formato deberia ser:  sellaCreden<fichero paquete> <id. albergue> <albergue.privada> <oficina.publica>");
+            System.out.println("Error el formato deberia ser:  sellaCreden <fichero paquete> <identificador de albergue> <ficheros con las claves necesarias> ");
             System.exit(1);
 	}
         
